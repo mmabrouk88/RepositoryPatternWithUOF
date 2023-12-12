@@ -10,8 +10,8 @@ namespace RepositoryPatternWithUOF.Core.Interfaces
     public interface IUnitOfWork : IDisposable
     {
         IBaseRepository<Author> Authors { get; }
-        IBaseRepository<Book> Books { get; }
-        IBooksRepository booksRepository { get; }
+      //  IBaseRepository<Book> Books { get; }
+        IBooksRepository Books { get; }
         int Complete();//or Save Changes and it can be async as well
     }
 }

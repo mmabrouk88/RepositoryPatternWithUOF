@@ -28,6 +28,7 @@ namespace RepositoryPatternWithUOF.API.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
+
             return Ok(_unitOfWork.Authors.GetAll());
         }
    

@@ -11,5 +11,6 @@ namespace RepositoryPatternWithUOF.Core.Interfaces
     {
         //we can list here all specific implementations of Books Repo
         void SpecialMethod();
+       
     }
 }
